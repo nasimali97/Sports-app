@@ -1,0 +1,22 @@
+# Sports App API
+
+This project is a RESTful API built with Node.js and Express, designed to manage competitions in a sports application. The app interacts with a MongoDB database to perform CRUD (Create, Read, Update, Delete) operations on competition data. The data is stored in a MongoDB collection, allowing for easy access, modification, and removal of competition records.
+
+## Features
+
+- **GET /api/competitions** - Retrieve a list of all competitions.
+- **GET /api/competitions/:id** - Retrieve a specific competition by its ID.
+- **POST /api/competitions** - Add a new competition.
+- **PUT /api/competitions/:id** - Update an existing competition by its ID.
+- **DELETE /api/competitions/:id** - Remove a competition by its ID.
+
+## Technologies Used
+
+- **Node.js**: JavaScript runtime for the server-side.
+- **Express**: Web framework for building the RESTful API.
+- **MongoDB**: NoSQL database for storing competition data.
+- **MongoDB Atlas**: Cloud-based MongoDB service to host the database.
+- **dotenv**: To manage environment variables like MongoDB credentials securely.
+- **body-parser**: To parse incoming request bodies in middleware.
+
+## Setup
